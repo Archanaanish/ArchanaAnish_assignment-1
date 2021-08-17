@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body bgcolor="skyblue"  >
+        <!-------------------------Form 1-------------------------------->
+        <h2 style="color:blue" >1.<u>LOGIN FORM</u></h2>
+        <form method="GET">
+             
+            <input type="text" name="txt1" placeholder="username" maxlength="8" required><br><br>
+            <input type="password" name="txt2" placeholder="password" minlenght="10" required><br><br>
+            <button type="submit"name="btn">LOGIN</button>
+            <p><strong>Don't you have an account? SIGNUP NOW</strong> </p>
+         </form>
+         <hr>
+         <hr>
+        <!------------------------Form 2-------------------------------->
+         <h2 style="color: blue;">2.<u>FORGOT PASSWORD FORM</u></h2>
+         <form method="POST">
+            <input type="email" name="email" placeholder="Enter your email" required><br><br>
+            <button>SEND</button>
+        </form>
+        <hr>
+        <hr>
+        <!------------------------Form 3------------------------------->
+
+        <h2 style="color: blue;">3.<u>SIGNUP FORM</u></h2>
+        <form method="POST">
+            First name <br>
+            <input type="text" name="text1" placeholder="Enter your first name" required><br><br>
+            Last name<br>
+            <input type="text"  name="text2" placeholder="Enter your last name" required><br><br>
+            Email<br>
+            <input type="email"  name="email" placeholder="Enter your email" required><br><br>
+            Password<br>
+            <input type="password"  name="password" placeholder="Enter your password" required><br><br>
+            Confirm Password<br>
+            <input type="password"  name="password" placeholder=" Confirm your password" required><br><br>
+            <input type="button" value="SIGNUP"><br><br>
+            <input type="checkbox" name="chkbx"><strong> Already have an account? LOGIN</strong><br><br>
+
+        </form>
+        <hr>
+        <hr>
+        <!-------------------------Form 4----------------------------------------------->
+        <h2 style="color:blue;">4.<u>STUDENT REGISTRATION FORM</u></h2>
+        <form method="POST" enctype="multipart/form-data">
+            Student id:<br>
+            <input type="text"  name="id" placeholder="Enter student id" required><br><br>
+            First name: <br>
+            <input type="text" name="txt1" placeholder="Enter your first name" required><br><br>
+            Last name:<br>
+            <input type="text"  name="txt2" placeholder="Enter your last name" required><br><br>
+            Gender:<br>
+            <input type="radio" name="rdGender" value="Male">Male<br>
+            <input type="radio" name="rdGender" value="Male">Female<br><br>
+            Class:<br>
+            
+            <select>
+               <option name="Select">--select--</option>
+                <option>PRIMARY 1</option>
+                <option>PRIMARY 2</option>
+                <option>PRIMARY 3</option>
+                <option>PRIMARY 4</option>
+                <option>PRIMARY 5</option>
+                <option>PRIMARY 6</option>
+            </select><br><br>
+            Upload documents:<br><br>
+            <input type="file" name="file" action=""><br><br>
+
+            Address:<br>
+            <textarea name="tamsg" rows="10" cols="40"></textarea><br><br>
+            Username:<br>
+            <input type="text"  name="txt3" placeholder="Enter username" required><br><br>
+            Password<br>
+            <input type="password"  name="Ppassword" placeholder="Enter your password" required><br><br>
+            Confirm Password<br>
+            <input type="password"  name="Cpassword" placeholder=" Confirm your password" required><br><br>
+            <input type="button" value="REGISTER"><br><br>
+        </form>
+        <hr>
+        <hr>
+            <!------------------------------Form 5-------------------------------------------------------------->
+
+            <h2 style="color:blue;">5.<u>FEEDBACK FORM</u></h2>
+            <form method="GET">
+                <h3>How do you rate your overall experience</h3>
+                <input type="radio" name="rdrating" value="Good">Good
+                <input type="radio" name="rdrating" value="Average">Average
+                <input type="radio" name="rdrating" value="Bad">Bad<br>
+                Full name <br>
+                <input type="text" name="txt1" placeholder="Enter your full name" required><br><br>
+               Email<br>
+                <input type="email"  name="email" placeholder="Enter your email" required><br><br>
+                Phone number<br>
+                <input type="text"  name="number" placeholder="Enter your phone number" required><br><br>
+                Give us your feedback<br>
+                <textarea name="tamsg" rows="10" cols="40">Message</textarea><br><br>
+                <input type="button" value="SUBMIT" ><br>
+            </form>
+            <hr>
+            <hr>
+                <!----------------------------Form 6-------------------------------------------------------->
+             <h2 style="color:blue;">6.<u>MCQ FORM</u></h2>
+
+            <form method="GET">
+            <h4>What is the biggest country in the world?</h4>
+            <input type="radio" name="question1" value="Russia"> (a)Russia<br>
+            <input type="radio" name="question1" value="America">(b)America<br>
+            <input type="radio" name="question1" value="China">  (c)China<br>
+            <input type="radio" name="question1" value="Canada"> (d)Canada<br><br>
+            <h4>What is the capital of Srilanka?</h4>
+            <input type="radio" name="question2" value="Uganda"> (a)Uganda<br>
+            <input type="radio" name="question2" value="Burma">  (b)Burma<br>
+            <input type="radio" name="question2" value="China">  (c)China<br>
+            <input type="radio" name="question2" value="Colombo">(d)Colombo<br><br>
+            <h4>Where is the Golden Temple?</h4>
+            <input type="radio" name="question3" value="Gujarat">  (a)Gujarat<br>
+            <input type="radio" name="question3" value="Punjab">   (b)Punjab<br>
+            <input type="radio" name="question3" value="Sikkim">   (c)Sikkim<br>
+            <input type="radio" name="question3" value="Hyderabad">(d)Hyderabad<br><br>
+            <input type="button" value="SUBMIT" ><br>
+            </form>
+            <hr>
+            <hr>
+            <!-----------------------------Form 7---------------------------------------------------------->
+              <h2 style="color: blue;">7.<u>CHECKOUT FORM</u></h2>
+              <form method="GET">
+              <h4>Billing Address</h4>
+              Full name <br>
+              <input type="text" name="txt1" placeholder="Enter your full name" required><br><br>
+              Email<br>
+              <input type="email"  name="email" placeholder="Enter your email" required><br><br>
+              Address<br>
+              <textarea name="tamsg" rows="10" cols="30"></textarea><br><br>
+              City <br>
+              <input type="text" name="name1" placeholder="Enter your full city" required><br><br>
+              State <br>
+              <input type="text" name="name2" placeholder="Enter your state" required><br><br>
+              Pincode<br>
+              <input type="text" name="name3" placeholder="Enter your pincode" required><br><br>
+              Contact number<br>
+              <input type="text" name="name4" placeholder="Enter your contact number" required><br><br>
+              <h4>Payment details</h4>
+              Name of the card <br>
+              <input type="text" name="name5" placeholder="Enter your card name" required><br><br>
+              Credit card number <br>
+              <input type="text" name="name6" placeholder="Enter your card number" required><br><br>
+              Expiry date <br>
+              <input type="date" name="name7" ><br><br>
+              CVC/CVV <br>
+              <input type="text" name="name8" placeholder="CVC/CVV" required><br><br>
+              <button type="submit">CONTINUE TO CHECKOUT</button><br><br>
+             </form>
+             <hr>
+             <hr>
+             <!--------------------------------Form 8---------------------------------------------------------------->
+             <h2 style="color: blue;">8.<u>COMPLAINT FORM</u></h2>
+             <form method="GET">
+                First name <br>
+                <input type="text" name="fstname" placeholder="Enter your first name" required><br><br>
+                Last name<br>
+                <input type="text"  name="lstname" placeholder="Enter your last name" required><br><br>
+                Phone number<br>
+                <input type="text"  name="number" placeholder="Enter your phone number" required><br><br>
+                Address<br>
+                <textarea name="tamsg" ></textarea><br><br>
+                Gender:<br>
+                <input type="radio" name="rdGenderM" value="Male">Male<br>
+                <input type="radio" name="rdGenderF" value="Male">Female<br><br>
+
+                Where do you live in?<br>
+            
+                <select>
+                   <option name="Select">--select--</option>
+                    <option>India</option>
+                    <option>Australia</option>
+                    <option>Dubai</option>
+                    <option>Singapore</option>
+                    <option>Malaysia</option>
+                    <option>Canada</option>
+                </select><br><br>
+                 Mention your problems here<br>
+                <textarea name="tamsg1" rows="10" cols="40"></textarea><br><br>
+                <button type="submit" name="btnsub">SUBMIT THE FORM</button>
+                <button type="reset" name="btnreset">RESET THE FORM</button><br><br>
+             </form>
+             <hr>
+             <hr>
+             <!---------------- Form 9-------------------------------------->
+             <h2 style="color:blue;">9.<u>SUBSCRIBE FORM</u></h2>
+             <form method="GET">
+                 <h4>Subscribe us and get our latest updates to your inbox</h4>
+                 Email<br>
+              <input type="email"  name="email" placeholder="Enter your email" required><br>
+              <input type="checkbox" name="chknews">Need our newsletter?<br><br>
+              <input type="submit" value="SUBSCRIBE" name="btnsbt"><br><br>
+             </form>
+             <hr>
+             <hr>
+             <!---------------------Form 10------------------------------------------->
+            <h2 style="color:blue;">10.<u>DONATION FORM</u></h2>
+            <form method="POST">
+                First name <br>
+                <input type="text" name="name1" placeholder="Enter your first name" required><br><br>
+                Last name<br>
+                <input type="text"  name="name2" placeholder="Enter your last name" required><br><br>
+                Email<br>
+                <input type="email"  name="email" placeholder="Enter your email" required><br><br>
+                Phone number<br>
+                <input type="text"  name="number" placeholder="Enter your phone number" required><br><br>
+                Comments<br>
+                <textarea name="tamsg" rows="10" cols="40"></textarea><br><br>
+                Donation Amount <br>
+                <input type="text" name="name3" placeholder="Enter your amount" required><br><br>
+                Payment Method<br>
+                <select>
+                    <option name="Select">--select--</option>
+                     <option>Paypal</option>
+                     <option>Credit card</option>
+                    
+                 </select><br><br>
+                 <input type="button" value="SUBMIT" name="btnsbt"><br>
+
+            </form>
+            <hr>
+            <hr>
+            <!------------------------------Form 11----------------------------------------------------->
+            <h2 style="color:blue;">11.<u>CONFIRMATION FORM</u></h2>
+            <form method="POST">
+                Password<br>
+                <input type="password"  name="Ppassword" placeholder="Enter your password" required><br><br>
+                Confirm Password<br>
+                <input type="password"  name="Cpassword" placeholder=" Confirm your password" required><br><br>
+                <input type="button" value="CONFIRM" name="btn"><br><br>
+            </form>
+            <hr>
+            <hr>
+            <!-------------------------------Form 12---------------------------------------------------------->
+                       <h2 style="color:blue;">12.<u>ORDER FORM</u></h2>
+                       <form method="POST">
+                           <h3>Place your pizza order</h3>
+                           <p>You can ring us on 888777888 or pick up at 123 street or place your order online</p>
+                           Your name <br>
+                          <input type="text" name="name1" placeholder="Enter your name" required><br><br>
+                          Phone number<br>
+                         <input type="text"  name="number" placeholder="Enter your phone number" required><br><br>
+                         Address<br>
+                         <textarea></textarea><br><br>
+                         Size?<br>
+                       
+                           <strong>Family</strong>
+                             <input type= "radio" value="family" name ="size1"><br>
+                             <strong>Large</strong>
+                             <input type= "radio" value="family" name ="size2"><br>
+                             <strong>Small</strong>
+                             <input type= "radio" value="family" name ="size3"><br><br>
+                             How many?<br>
+                             <input type="text" name="name2" required><br><br>
+                             Type?<br>
+                             <select multiple size="2">
+                                 
+                                 <option>Barbeque</option>
+                                 <option>Grilled chicken</option>
+                                 <option>Mexican</option>
+                                 <option>Vegetarian</option>
+                                 <option>Mac n Cheese</option>
+                             </select><br><br>
+                             Pickup?
+                             <input type= "radio" value="pickup" name ="pck"><br><br>
+                             Delivery?
+                             <input type= "radio" value="delivery" name ="dly"><br><br>
+                             Delivery time<br>
+                             <input type ="checkbox" value=6.30 name="chktm1">6.30PM<br>
+                             <input type ="checkbox" value=7.00 name="chktm2" checked disabled>7.00PM<br>
+                             <input type ="checkbox" value=7.30 name="chktm3">7.30PM<br>
+                             <input type ="checkbox" value=8.15 name="chktm4">8.15PM<br>
+                             <input type ="checkbox" value=8.45 name="chktm5" checked disabled>8.45PM<br>
+                             <input type ="checkbox" value=9.10 name="chktm6">9.10PM<br>
+                             <input type ="checkbox" value=9.30 name="chktm7">9.30PM<br><br>
+                             Payment Method<br>
+                                <select>
+                                <option name="Select">--select--</option>
+                                <option>Pay Online</option>
+                                   <option>Cash on delivery</option>
+                    
+                                    </select><br><br>
+                             <button type="submit" name="btnsbt">SUBMIT THE ORDER</button>
+                             <button type="reset" name="btnrst">RESET THE ORDER</button><br><br>
+
+                                 </form method="GET">
+                                 <hr>
+                                 <hr>
+                                 <!-----------------Form 13---------------------------------------------------->
+                                 <h2 style="color:blue;">13.<u>CONTACT FORM</u></h2>
+                                 <form>
+                                     <h3>Contact us</h3>
+                                     Your name <br>
+                                     <input type="text" name="name1" placeholder="Enter your name" required><br><br>
+                                     Email<br>
+                                    <input type="email"  name="email" placeholder="Enter your email" required><br><br>
+                                    Phone number<br>
+                                    <input type="text"  name="number" placeholder="Enter your phone number" required><br><br>
+                                    Your message<br>
+                                    <textarea name="tamsg" rows="10" cols="40">Message</textarea><br><br>
+                                    <button type="submit" name="btnsbt">SEND</button><br><br>
+                             </form>
+                             <hr>
+                             <hr>
+            <!-----------------------------------------Form 14--------------------------------------------->
+            <h2 style="color: blue;">14.<u>RESERVATION FORM</u></h2>
+            <form method="GET">
+                First name <br>
+                <input type="text" name="name1" placeholder="Enter your first name" required><br><br>
+                Last name<br>
+                <input type="text"  name="name2" placeholder="Enter your last name" required><br><br>
+                Email<br>
+                <input type="email"  name="email" placeholder="Enter your email" required><br><br>
+                Phone number<br>
+                <input type="text"  name="number1" placeholder="Enter your phone number" required><br><br>
+                Arrival date/time <br>
+                <input type="datetime-local" name="name3" ><br><br>
+                Departure date /time<br>
+                <input type="datetime-local" name="name4" ><br><br>
+                Number of guests<br>
+                <input type="number" value="number2"  name="number"><br><br>
+                Type of room<br>
+                <select>
+                    <option name="Select">--select--</option>
+                    <option>Single bed</option>
+                       <option>Doubble bed</option>
+                       <option>AC</option>
+                       <option>Non-AC</option>
+        
+                        </select><br><br>
+                        <button type="submit" name="btnsub">CONFIRM RESERVATION</button>
+                        <button type="reset" name="btnrst">RESET</button><br><br>
+                      </form>
+                      <hr>
+                      <hr>
+                      <!--------------------------Form 15-------------------------------------------------------------->
+                      <h2 style="color: blue;">15.<u>SEARCH FORM</u></h2>
+                      <form method="GET">
+                          <h4>Find everything near you</h4>
+                          <input type="text" name="txtbusiness" placeholder="Business/Services"required>
+                          <input type="text" name="txtlocation" placeholder="Location"required>
+                          <button type="submit" name="btnsub">SEARCH</button>
+
+
+
+
+
+
+                      </form>
+
+            
+      
+
+
+
+
+    </body>
+
+
+
+</html>
